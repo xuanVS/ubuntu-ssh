@@ -3,13 +3,15 @@ ubuntu-ssh
 
 
 Build the image using:
-
+======
 $ sudo docker build -t kent/test_ssh ./
 
 
-example：
+Example：
+======
 $ docker run -d -p 22222:22 kent/test_ssh
 
 
-
+Use ssh connect to container
+======
 $ ssh root@ipaddress -p 22222
