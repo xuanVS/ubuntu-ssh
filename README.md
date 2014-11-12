@@ -1,5 +1,6 @@
 ubuntu-ssh
 ==========
+ubuntu:14.04
 
 
 Build the image using:
